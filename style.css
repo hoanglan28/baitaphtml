@@ -1,0 +1,131 @@
+.container {
+    max-width: 800px;
+    margin: auto;
+    display: flex;
+    min-height: 800px;
+    flex-direction:column;
+}
+
+.info-column {
+    background-color: bisque;
+    height: 180px;
+}
+
+.info-column > hr {
+    margin: 0px 40px;
+}
+
+.avatar-frame {
+    display: flex;
+    justify-content:left;
+    padding: 15px;
+}
+
+.avatar-frame > img {
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    object-fit: cover;
+}
+ 
+.avatar-frame .session {
+    padding: 30px 40px;
+}
+
+.avatar-frame .session .name {
+    font-size: 40px;
+  line-height: 40px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: blue;
+}
+
+.avatar-frame .session .position {
+    font-size: 20px;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: blue;
+}
+
+.contact {
+    display: flex;
+  flex-direction:row;
+  justify-content: center;
+}
+
+.contact .tel {
+    margin-right: 8px;
+    justify-content: center;
+}
+
+.contact .date {
+    margin-right: 8px;
+    justify-content: center;
+}
+  
+.contact .mail {
+    margin-left: 8px;
+    justify-content: center;
+}
+
+.contact .address {
+    margin-left: 8px;
+    justify-content: center;
+}
+
+.objective .title{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.objective .content {
+    font-size: 18px;
+}
+
+.work-session {
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.work-items {
+    display: flex;
+    flex-direction: column;
+}
+  
+.work-items .item {
+    display: flex;
+}
+  
+.work-items .item .duration {
+    width: 240px;
+}
+  
+.work-items .item .content {
+    flex: 1;
+    padding-bottom: 40px;
+    position: relative;
+}
+
+.duration .location,
+.content .label {
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.duration .city,
+.duration .time {
+  color:burlywood;
+}
+
+.work-items .item .content {
+  border-left: 2px solid orange;
+  padding-left: 20px;
+}
+

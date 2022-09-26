@@ -7,75 +7,105 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital@1&display=swap" rel="stylesheet">
-    
-    <style>
-    .flexbox {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .square {
-    width: 300px;
-    height: 300px;
-    }
-
-    .circle {
-        border-radius: 300px;
-    }
-
-    .borderbox {
-        border: 10px #ec9633 solid;
-        padding: 60px 40px 20px 10px;
-    }
-
-    .beige {
-        background-color: beige;
-    }
-    
-    .bisque {
-        background-color: bisque;
-    }
-
-   
-    </style>
-
-    <body >
-
-    <div class ="square beige flexbox"
-       style= "position: fixed;top:0px; right:0px;height:250px;width:100%">
-       <div style="position: fixed; top: 40px; left: 0px; right: 0px; text-align: center;font-size: x-large;color:blue">NGUYEN THI HOANG LAN
-       </div>
-       <div style="position: fixed; top: 80px; left: 0px; right: 0px; text-align: center;font-size:larger;color: cadetblue;"> PERSONAL DETAIL
-       </div>
-       <a style="position: fixed; top: 120px; left: 0px; right: 0px; text-align:center; font-size: medium;"> Date of birth: 2nd August 1992
-       </a>
-       <a style="position: fixed; top: 160px; left: 0px; right: 0px; text-align:center; font-size: medium;"> Phone number: 0983031828
-      </a>
-      <a style="position: fixed; top: 200px; left: 0px; right: 0px; text-align:center; font-size: medium;"> Email address: hoanglan.nguyen0208@gmail.com
-      </a>
-    </div>
-
-    <div style="position: fixed; top: 60px; left: 60px;">
-        <div class="square circle"
-          style="width: 180px; height: 180px; background: url(https://scontent-lax3-2.xx.fbcdn.net/v/t1.6435-9/34340303_1756476487765287_6575647534935441408_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=174925&_nc_ohc=Mog5sNA7vakAX_2TZ3M&_nc_ht=scontent-lax3-2.xx&oh=00_AT8IBx_IWkv9oE1guD2aSHdrRGAl9iIdFdR68NAC9oqUJg&oe=634C6E9D) no-repeat center / cover; position: relative;">
-      </div>
-
-    <div class="square bisque flexbox"
-     style ="position:fixed; top: 250px; right: 0px; height: 100%; width:100%">
-      <a style="position: fixed; top: 280px; left: 0px; right: 0px; text-align:center; font-size: larger;color:  cadetblue;"> EDUCATION
-     </a>
-     <a style="position: fixed; top: 320px; left: 30px; right: 0px; text-align:left; font-size:medium;"> April 2020 - Akamonkai Japanese Language School
-
-     </a>
-     <a style="position: fixed; top: 360px; left: 30px; right: 0px; text-align:left; font-size:medium;"> June 2014 - Bachelor Degree of English at  HUTECH University
-     </a>
-    
-    </div>
-
-    
-    </body>
-
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 </head>
 
+<body>
+    <div class="container">
+        <div class="info-column">
+            <div class="avatar-frame">
+                <img 
+                src="https://scontent-lax3-1.xx.fbcdn.net/v/t39.30808-6/297278028_5374797519266481_6110913023451381814_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=BGghonFj-GYAX-x-THm&_nc_ht=scontent-lax3-1.xx&oh=00_AT_1GvRcR_MD_iRDz60UI5gi4ic0bpCSi-E0FORZAVOKEA&oe=63372E2D" />
+                <div class="session">
+                    <div class="name">NGUYEN THI HOANG LAN</div>
+                    <div class="position">Sales</div>
+                </div>
+            </div>
+        </div>
+        <div class="contact">
+            <div class="tel">
+                <i class="material-icons">telephone</i> Telephone: 080.000.111
+            </div>
+            <div class="date">
+                <i class="material-icons">celebration</i> Date of birth: 02.08.1992
+            </div>
+            <div class="mail">
+                <i class="material-icons">mail</i> Email: hoanglan.nguyen0208@gmail.com
+            </div>
+            <div class="address">
+                <i class="material-icons">home</i> Address: Gunma, Japan
+            </div>
+        </div>
+        <hr style="margin: 20px 0px; height: 3px; border-width:0px; color:gray; background-color:orange;" />
+      <div class="objective">
+        <div class="title">OBJECTIVE</div>
+        <div class="content">Looking for a Sales Lady position in your company because I would love to use my enthusiasm for learning, my tenacity, and excellent customer service skills to make your company successful</div>
+      </div>
+      <hr style="margin: 20px 0px; height: 3px; border-width:0px; color:gray; background-color:orange;" />
+      <div class="work-session">
+        <div class="title"> WORKING EXPERIENCE </div>
+        <div class="work-items">
+            <div class="item">
+              <div class="duration">
+                <div class="location"> Natural English School</div>
+                <div class="city">Vung Tau</div>
+                <div class="time">October 2016 – Present	</div>
+              </div>
+              <div class="content">
+                <div class="label">The Head of Administrative Officer</div>
+                <div class="value">
+                       <div>- Control and follow up all activities of my co-workers.</div>
+                       <div>- Make the plan to improve the customer services to actract more students with Marketing Department.</div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+                <div class="duration">
+                  <div class="location"> Natural English School</div>
+                  <div class="city">Vung Tau</div>
+                  <div class="time">August 2015 – Octorber 2016	</div>
+                </div>
+                <div class="content">
+                  <div class="label"> Administrative Officer</div>
+                  <div class="value">
+                         <div>- Do all kinds of the administrative jobs in the office</div>
+                         <div>Support clients with preparation and knowledge about all English courses at the centre</div>
+                  </div>
+                </div>
+              </div>
+      </div>
+      <hr style="margin: 20px 0px; height: 3px; border-width:0px; color:gray; background-color:orange;" />
+      <div class="work-session">
+        <div class="title"> EDUCATION</div>
+        <div class="work-items">
+            <div class="item">
+              <div class="duration">
+                <div class="location"> HUTECH University</div>
+                <div class="city">Ho Chi Minh City</div>
+                <div class="time">June 2014	</div>
+              </div>
+              <div class="content">
+                <div class="label">English for Business</div>
+                <div class="value"> GPA: 2.82
+                </div>
+              </div>
+            </div>
+            <div class="item">
+                <div class="duration">
+                  <div class="location"> Nguyen Hue High School</div>
+                  <div class="city">Vung Tau</div>
+                  <div class="time">2010</div>
+                </div>
+            </div>
+      </div>
+      <hr style="margin: 20px 0px; height: 3px; border-width:0px; color:gray; background-color: orange;" />
+      <div class="work-session">
+        <div class="title">HOBBIE </div>
+        <div class="content">
+            <div>- Travelling</div>
+            <div>- Going out with my family and friends</div>
+            <div>- Listening to music</div>
+        </div>
+</body>
 </html>
